@@ -3,8 +3,7 @@
 <head>
 <title>PMS</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="login.html"></script> 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
@@ -16,49 +15,50 @@
     <li><a href="appointmentform.html">New Appointment</a></li>
     <li><a href="appointments.html">Appointments</a></li>
     <li style="float:right">
-     <!-- <a class="active" href="login.html">Login</a></li> -->
-     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+     <!-- <a class="active" href="login.html">Login</a></li>  this was change to  BUTTON-->
+     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    </li>
     </ul>
 </nav>
  
-<!-- the from will move to its own page
-<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-   
-    <label for="midname">Middle Name</label>
-    <input type="text" id="midname" name="midname" placeholder="Your middle name / itnitial">
-   
-    <label for="dob">Date Of Birth</label>
-    <input type="text" id="dob" name="dob" placeholder="dd/mm/yy">
-   
-   <label for="ss#">Social Security Number</label>
-   <input type="text" id="ss#" name="ss#" placeholder="000000000000000">
-   
-    <label for="phone#">Phone Number</label>
-    <input type="text" id="phone#" name="phone#" placeholder="Your phone number">
-   
-    <label for="gender">Gender</label>
-    <select id="gender" name="gender">
-      <option value="female">Female</option>
-      <option value="male">Male</option>
-     </select>
-   
-    <label for="doc">Doctor's Name</label>
-    <select id="doc" name="doc">
-     <option value="1"> Doc 1</option>
-     <option value="2"> Doc 2</option>
-     <option value="3"> Doc 3</option>
-     <option value="4"> Doc 4</option>
-    </select>
+<div id="id01" class="modal">
   
-    <input type="submit" value="Submit">
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
   </form>
-</div> -->
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
  
 </body>
 </html> 
