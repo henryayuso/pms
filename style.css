@@ -189,7 +189,7 @@ span.psw {
 }
 /* -------------------main is the main display on index.html ----------------------*/
 .main {
-  margin-left: 50%; /* Same as the width of the sidenav used to position dispaly */
+  margin-left: 20%; /* Same as the width of the sidenav used to position dispaly */
   padding: 0px 10px;
   width:50%;
   border: solid black 2px;
