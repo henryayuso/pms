@@ -192,7 +192,7 @@ span.psw {
   margin-left: 50%; /* Same as the width of the sidenav used to position dispaly */
   padding: 0px 10px;
   width:50%;
-  float: right;
+  border: solid black 2px;
 }
 /* -----------------------------------------*/
 @media screen and (max-height: 450px) {
