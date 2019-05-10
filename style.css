@@ -187,13 +187,14 @@ span.psw {
 .sidebar a:hover {
   color: #f1f1f1;
 }
-
+/* -------------------main is the main display on index.html ----------------------*/
 .main {
-  margin-left: 180px; /* Same as the width of the sidenav */
+  margin-left: 50%; /* Same as the width of the sidenav used to position dispaly */
   padding: 0px 10px;
   width:50%;
   float: right;
 }
+/* -----------------------------------------*/
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
