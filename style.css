@@ -165,7 +165,7 @@ span.psw {
 /* --------------------side bar settings-----------------------*/
 .sidebar {
   height: 70%;
-  width: 160px;
+  width: 180px;
   position: fixed;
   z-index: 1;
   top: 30;
