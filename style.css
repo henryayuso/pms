@@ -189,10 +189,11 @@ span.psw {
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 180px; /* Same as the width of the sidenav */
   padding: 0px 10px;
+  width:50%;
+  float: right;
 }
-
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
