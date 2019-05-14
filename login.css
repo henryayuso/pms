@@ -8,13 +8,13 @@ html, body {
     font-family: sans-serif;
     /* 	background: url(bg.jpg); */
    /* background-image: linear-gradient(to right top, #1db9ff, #a2a0ff, #fb7ad4, #ff677a, #f48603); */
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 90%;
     background-image: url(" images/scope.jpg ");
-	position:;
-	top: 90%;
-	left: 90%;
+    background-repeat: no-repeat;
+    background-size:100% 90%;
+
     
 }
 body {
@@ -32,7 +32,7 @@ body {
 	background: rgba(0,0,0,.3);
 	box-sizing: border-box;
 	box-shadow: 0 15px 25px rgba(0,0,0,.8);
-	border-radius: 10px;
+	border-radius: 20px;
 }
 .box h2 {
 	margin: 0 0 30px;
