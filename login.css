@@ -12,6 +12,11 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+body {
+  background-image: url(" images/scope.jpg ");
+  background-repeat: none;
+  z-index=1;
+}
 .box {
 	position: absolute;
 	top: 50%;
