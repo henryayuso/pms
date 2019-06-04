@@ -38,7 +38,7 @@
 			/*<input type="submit" name="submit" value="Login"> */
 				<button type="submit" name="submit" value="Login"></button>
 		</form>
-			< ahref="signup.php">Sign Up</a>
+			<a href="signup.php">Sign Up</a>
 		</div>
 	</nav>
 </header>
