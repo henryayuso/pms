@@ -11,9 +11,8 @@
 	<link rel="stylesheet" href="login.css">
 	
 </head>
-	
 <body class="body2">
-
+<header>
 <nav>
    <ul>
     <li><a href="">Home</a></li>
@@ -22,3 +21,4 @@
     <li style="float:right"><a class="active" href="#about">Login</a></li
     </ul>
 </nav>
+</header>
