@@ -1,14 +1,4 @@
- <!DOCTYPE html>
-<html>
-<head>
-<title>nav</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<header>
-<h1>Welcome to PMS</h1>
-</header>
+
 <nav>
    <ul>
     <li><a href="">Home</a></li>
