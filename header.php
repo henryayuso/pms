@@ -12,3 +12,6 @@
 </head>
 	
 <body class="body2">
+<?php
+	include_once 'nav.php';
+?>
