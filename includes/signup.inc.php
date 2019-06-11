@@ -5,7 +5,7 @@ if(issete($_POST['submit'])){
   $first = mysqli_real_escape_strint($conn,$_POST['first'];)
   $last = mysqli_real_escape_strint($conn,$_POST['last'];)
   $email = mysqli_real_escape_strint($conn,$_POST['email'];)
-  $uis = mysqli_real_escape_strint($conn,$_POST['uid'];)
+  $uid = mysqli_real_escape_strint($conn,$_POST['uid'];)
   $pwd = mysqli_real_escape_strint($conn,$_POST['pwd'];)
   
   // #error handlers
