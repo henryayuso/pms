@@ -15,27 +15,27 @@
 <header>
 <h1>Welcome to PMS</h1>
 	<nav>
-		
-		<button class="open-button" onclick="openForm()">Login</button> 
-		<div class="form-popup" id="myForm">
-		<div class="main-wrapper">
-			login here please
-		</div>
-		<div>
-			<form action="connect.php" method="POST">
-			<div class="inputBox">
-				<input type="text" name="username" required="" >
-				<label for="">Username</label>
+		<button class="open-button"  onclick="openForm()">Login</button> 
+        <div class="form-popup" id="myForm">
+			<div class="main-wrapper" id="myFrom">
+         		<h2> please login</h>
 			</div>
-			<div class="inputBox">
-				<input type="password" name="password" required="">
-				<label for="">Password</label>
-			</div>
+		<div class="box">
+			<form action="connect.php" method="POST" >
+				<div class="inputBox">
+					<input type="text" name="username" required="" >
+					<label for="">Username</label>
+				</div>
+				<div class="inputBox">
+					<input type="password" name="password" required="">
+					<label for="">Password</label>
+				</div>
 			<input type="submit" name="" value="Login">	
 			
 		</form>
 			<a href="signup.php">Sign Up</a>
-		</div></div>
+       </div>
+		</div>
 	</nav>
 </header>
 
