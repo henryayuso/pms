@@ -271,7 +271,7 @@ body {
 .form-container {
   max-width: 300px;
   padding: 10px;
-  background-color: white;
+  background-color:;
 }
 
 /* Full-width input fields */
@@ -280,7 +280,7 @@ body {
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #f1f1f1;
+  background: transparent;
 }
 
 /* When the inputs get focus, do something */
@@ -291,8 +291,8 @@ body {
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #4CAF50;
-  color: white;
+  background-color:;
+  color: ;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
